@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+}
+.signin{
+    position: absolute;
+    margin-top: 100px;
+    background-color: rgba(75, 72, 243, 0.813);
+    min-width: 350px;
+    min-height: 350px;
+    border-radius: 100px;
+}
+
+.formm{
+    position: relative;
+    margin-top: 50px;
+}
+
+h1 {
+    color: rgb(255, 246, 246);
+    text-align: center;
+}
+
+.inn {
+    background-color: transparent;
+    border: 1px solid rgb(255, 246, 246);
+    border-radius: 30px;
+    color: rgb(255, 246, 246);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding: 10px;
+    outline: 0;
+}
+
+.inn::placeholder{
+    color: rgb(255, 246, 246);
+}
+
+button {
+    background-color: rgba(128, 128, 128, 0.655);
+    color: rgb(255, 246, 246);
+    border: 1px solid rgba(128, 128, 128, 0.655);
+    border-radius: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out
+}
+
+button:hover{
+    background-color: rgb(45, 45, 254);
+    border-color: rgb(45, 45, 254);
+}
+
+.admm {
+    text-align: end;
+    margin-right: 30px;
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.616);
+}
